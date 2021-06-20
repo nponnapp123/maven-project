@@ -5,11 +5,11 @@
     double num = Math.random();
     if (num > 0.95) {
   %>
-      <h2>jenkins editing was sucessfull!</h2><p>(<%= num %>)</p>
+      <h2>jenkins build pipeline was sucessfull!</h2><p>(<%= num %>)</p>
   <%
     } else {
   %>
-      <h2>Well, nitin jenkins was pain in the butt but yo resolved the issue... </h2><p>(<%= num %>)</p>
+      <h2>Well, nitin jenkins piple has been created successfullythe issue... </h2><p>(<%= num %>)</p>
   <%
     }
   %>
